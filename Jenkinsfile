@@ -1,10 +1,10 @@
-// Jenkins pipeline with 7 stages and SCM polling every 2 minutes
+// Jenkins pipeline with 7 stages and SCM polling every 1 minutes
 
 pipeline {
     agent any
     triggers {
-        // Poll GitHub every 2 minutes
-        pollSCM('H/2 * * * *')
+        // Poll GitHub every 1 minutes
+        pollSCM('H/1 * * * *')
     }
     stages {
         stage('Build') {

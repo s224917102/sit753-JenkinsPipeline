@@ -1,6 +1,6 @@
 // Jenkins pipeline with 7 stages and SCM polling every 1 minutes
 
-#comment to observe poll
+#comment to observe 
 
 pipeline {
     agent any

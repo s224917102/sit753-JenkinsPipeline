@@ -1,6 +1,7 @@
 // Jenkins pipeline with 7 stages and SCM polling every 1 minutes
 
 // comment to observe sfdsfds 
+//sds
 // sdfsfds
 pipeline {
     agent any

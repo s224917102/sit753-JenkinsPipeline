@@ -2,7 +2,7 @@
 
 // comment to observe sfdsfds 
 //sds
-// sdfsfds
+// make
 pipeline {
     agent any
     triggers {
